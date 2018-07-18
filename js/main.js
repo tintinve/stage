@@ -2,14 +2,14 @@ let template = document.querySelector("#eventtemp").content;
 let eventlist = document.querySelector("#eventlist")
 let page = 1;
 let lookingForData = false;
-let catLink = "http://tintinve.com/kea/16-cms/wp-json/wp/v2/categories"
+let catLink = "http://eupeo.com/index.php/wp-json/wp/v2/categories"
 const aside = document.querySelector('aside');
 const mytimer = setInterval(myTimer, 10000);
 
 
 function fetchData() {
     lookingForData = true;
-    fetch("http://tintinve.com/kea/16-cms/wp-json/wp/v2/events?_embed&per_page=75&page=" + page)
+    fetch("http://eupeo.com/index.php/wp-json/wp/v2/events?_embed&per_page=75&page=" + page)
         .then(e => e.json())
         .then(showContent)
 }
@@ -21,7 +21,7 @@ function showContent(data) {
 }
 
 function showEvent(anEvent) {
-    if (anEvent._embedded.author[0].name === "PedroMMD") {
+    if (anEvent._embedded.author[0].name === "admin") {
         //console.log(anEvent._embedded["wp:featuredmedia"][0].media_details.sizes.medium.source_url);
         let clone = template.cloneNode(true);
         clone.querySelector("h1").textContent = anEvent.title.rendered;
