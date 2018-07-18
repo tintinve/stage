@@ -3,7 +3,7 @@ let urlParams = new URLSearchParams(window.location.search);
 let id = urlParams.get("id");
 console.log("el numero ganador es " + id);
 
-fetch("http://eupeo.com/index.php/wp-json/wp/v2/events/" + id)
+fetch("https://eupeo.com/index.php/wp-json/wp/v2/events/" + id)
     .then(e => e.json())
     .then(showSinglePost)
 
