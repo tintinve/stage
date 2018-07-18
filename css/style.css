@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:900|Montserrat');
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+#loader{
+    border: 2px solid white;
+    border-top: 2px solid #2D2C69;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    animation: spin .5s linear infinite;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.logo {
+    width: 180px;
+    margin: 5px 0px 0px 5px;
+}
+.more_arrow {
+    font-size: 2.4em;
+    margin: 0px 15px 0px 5px;
+}
+
+hr {
+    height: 1px;
+    background-color: black;
+}
+.top_line{
+    display: none;
+}
+
+.event {
+    padding: 0px 0px 0px 5px;
+}
+
+.main_img {
+    width: 95%;
+    padding: 0px 0px 0px 0px;
+}
+
+.category_text {
+    display: block;
+    float: left;
+}
+
+h2 {
+    text-align: right;
+    display: block;
+}
+
+.readmore {
+    font-size: 0.5em;
+    text-decoration: none;
+}
+
+.readmore:link {
+    color: black;
+}
+
+.readmore:visited {
+    color: black;
+}
+
+.readmore:hover {
+    color: black
+}
+
+.readmore:active {
+    color: black;
+}
+
+.hidden {display:none;}
+
+
+@media all and (min-width:1024px) {
+    section {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+        grid-auto-rows: 100%;
+    }
+    article:first-child {
+        width: 100%;
+        height: 100%;
+        grid-column: 1 / 2;
+        grid-row: 1;
+    }
+    article:nth-child(2) {
+        width: 100%;
+        height: 100%;
+        grid-column: 2 / 4;
+        grid-row: 1;
+    }
+    article:nth-child(3) {
+        width: 100%;
+        height: 100%;
+        grid-column: 1;
+        grid-row: 2 / 2;
+    }
+    article:nth-child(4) {
+        grid-column: 3;
+        grid-row: 2;
+    }
+    hr{
+        display: none;
+    }
+    .main_img {
+        height: auto;
+    }
+ 
+    article:nth-child(n + 3) .main_img{
+        height: 250px;
+    }
+    .top_line{
+    display: block;
+}
+    
+}
+*/

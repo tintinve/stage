@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-105309957-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-105309957-1');
+
+    </script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/burger.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="apple-mobile-web-app-title" content="Huset">
+    <meta name="application-name" content="Huset">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    <nav>
+        <img class="logo" src="assets/img/main_logo.png" alt="logo">
+        <aside></aside>
+        <hr>
+    </nav>
+    <main>
+        <h1></h1>
+        <section id="eventlist"></section>
+    </main>
+    <template id="eventtemp">
+            <article class="event">
+                <h1>TITLE</h1>
+                <div class="category_text">Category:&nbsp; </div><div class="category"></div>
+                <div class="venue"></div>
+                <div class="date"></div>
+                <div class="time"></div>
+                <h2 class="price">Price <span>PRICE</span> kr.</h2>
+                <div class="description">Description</div>
+                <div class="more_arrow">&#171;&nbsp;<a class="readmore" href="index.html">Back</a></div>
+            </article>
+            <hr>
+        </template>
+
+
+    <script src="js/subpage.js"></script>
+</body>
+
+</html>
