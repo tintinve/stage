@@ -22,10 +22,7 @@
     width: 180px;
     margin: 5px 0px 0px 5px;
 }
-.more_arrow {
-    font-size: 2.4em;
-    margin: 0px 15px 0px 5px;
-}
+
 
 hr {
     height: 1px;
@@ -34,48 +31,18 @@ hr {
 .top_line{
     display: none;
 }
-
-.event {
-    padding: 0px 0px 0px 5px;
-}
-
-.main_img {
-    width: 95%;
-    padding: 0px 0px 0px 0px;
-}
-
-.category_text {
-    display: block;
-    float: left;
-}
-
-h2 {
+h1{
     text-align: right;
-    display: block;
+    margin: 10% 0px 30% 0px;
+}
+section h2{
+    text-align: right;
+}
+section p{
+    padding: 1%;
 }
 
-.readmore {
-    font-size: 0.5em;
-    text-decoration: none;
-}
 
-.readmore:link {
-    color: black;
-}
-
-.readmore:visited {
-    color: black;
-}
-
-.readmore:hover {
-    color: black
-}
-
-.readmore:active {
-    color: black;
-}
-
-.hidden {display:none;}
 
 
 @media all and (min-width:1024px) {
