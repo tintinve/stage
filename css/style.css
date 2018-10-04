@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:900|Montserrat');
 * {
     font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
 }
 #loader{
     border: 2px solid white;
@@ -17,7 +20,9 @@
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
 }
-
+body{
+    width: 374px;
+}
 .logo {
     width: 180px;
     margin: 5px 0px 0px 5px;
@@ -27,12 +32,13 @@ main{
 }
 h1{
     text-align: right;
-    margin: 0% 0px 10% 0px;
+    margin: 5% 5px 1% 5px;
     padding: 5% 5% 1% 5%;
     color: #182028;
 }
 .mainImg{
-    height: 400px;
+    padding: 5%;
+    height: 100%;
 }
 
 section h2{

@@ -5,6 +5,22 @@ let lookingForData = false;
 let catLink = "https://eupeo.com/index.php/wp-json/wp/v2/categories";
 const aside = document.querySelector("aside");
 const mytimer = setInterval(myTimer, 10000);
+//------------------------>>>  Animations
+
+TweenMax.from("#message_box_phone", 2, { x: 300 });
+const all = document.querySelectorAll("#lineas path");
+const tl = new TimelineMax({ repeat: 0, repeatDelay: 1 });
+tl.staggerFrom(
+  all,
+  3,
+  {
+    x: () => Math.random() * 1000 - 500,
+    y: () => Math.random() * 1000 - 500
+  },
+  0.1
+);
+
+//------------------------>>> End Animation
 
 function fetchData() {
   lookingForData = true;
