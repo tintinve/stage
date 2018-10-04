@@ -22,8 +22,25 @@
     width: 180px;
     margin: 5px 0px 0px 5px;
 }
+main{
+    background: linear-gradient(to bottom, #ffffff 2%, #2f363d 72%);
+}
+h1{
+    text-align: right;
+    margin: 0% 0px 10% 0px;
+    padding: 5% 5% 1% 5%;
+    color: #182028;
+}
+.mainImg{
+    height: 400px;
+}
 
-
+section h2{
+    text-align: right;
+}
+section p{
+    padding: 1%;
+}
 hr {
     height: 1px;
     background-color: black;
@@ -31,19 +48,6 @@ hr {
 .top_line{
     display: none;
 }
-h1{
-    text-align: right;
-    margin: 10% 0px 30% 0px;
-}
-section h2{
-    text-align: right;
-}
-section p{
-    padding: 1%;
-}
-
-
-
 
 @media all and (min-width:1024px) {
     section {

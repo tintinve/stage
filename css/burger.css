@@ -44,6 +44,7 @@
   }
   100% {
     opacity: 1;
+    z-index: 10;
   }
 }
 aside {
@@ -52,9 +53,9 @@ aside {
   position: fixed;
   right: 8px;
   top: 77px;
-  background-color: #2d2c69;
+  background: linear-gradient(to left, #0000ff -10%, #ff3300 89%);
   opacity: 0;
-  z-index: 10;
+  z-index: -1;
 }
 .menu_item {
   display: block;
