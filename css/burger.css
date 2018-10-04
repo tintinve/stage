@@ -50,15 +50,15 @@
 aside {
   width: 180px;
   position: absolute;
-  right: 8px;
+  right: 0px;
   top: 77px;
-  background: linear-gradient(to left, #0000ff -10%, #ff3300 89%);
+  background: linear-gradient(to top right, #2274a5 48%, #e71d36 157%);
   opacity: 0;
   z-index: -1;
 }
 .menu_item {
   display: block;
-  padding: 12px 5px 5px 25px;
+  padding: 12px 5px 10px 25px;
   color: white;
   text-decoration: none;
 }
