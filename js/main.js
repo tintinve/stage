@@ -74,3 +74,5 @@ function trae_menu() {
 function myTimer() {
   document.querySelector("#loader").style.display = "none";
 }
+function firstChild() {}
+firstChild();
