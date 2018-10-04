@@ -5,7 +5,7 @@ let lookingForData = false;
 let catLink = "https://eupeo.com/index.php/wp-json/wp/v2/categories";
 const aside = document.querySelector("aside");
 const mytimer = setInterval(myTimer, 10000);
-//------------------------>>>  Animations
+//------------------------>>>  Start Animation iPhone
 
 TweenMax.from("#message_box_phone", 2, { x: 300 });
 const all = document.querySelectorAll("#lineas path");
@@ -20,8 +20,21 @@ tl.staggerFrom(
   0.1
 );
 
-//------------------------>>> End Animation
-
+//------------------------>>> End Animation iPhone
+//------------------------>>>  Start Animation Bola
+const bola = document.querySelectorAll("#triangulos polygon");
+const tl1 = new TimelineMax({ repeat: 0, repeatDelay: 1 });
+tl1.staggerFrom(
+  bola,
+  6,
+  {
+    x: () => Math.random() * 1000 - 500,
+    y: () => Math.random() * 1000 - 500
+  },
+  0.1
+);
+//TweenMax.from("#lineas_bola", 2, { x: 500 });
+//------------------------>>> End Animation Bola
 function fetchData() {
   lookingForData = true;
   fetch(
