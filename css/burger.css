@@ -1,8 +1,8 @@
 .burger {
-  position: fixed;
+  position: absolute;
   display: inline-block;
   cursor: pointer;
-  right: 27px;
+  right: 10px;
   top: 20px;
   z-index: 5;
 }
@@ -49,8 +49,7 @@
 }
 aside {
   width: 180px;
-  height: 30%;
-  position: fixed;
+  position: absolute;
   right: 8px;
   top: 77px;
   background: linear-gradient(to left, #0000ff -10%, #ff3300 89%);

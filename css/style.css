@@ -23,6 +23,9 @@
 body{
     width: 374px;
 }
+nav{
+    position: relative;
+}
 .logo {
     width: 180px;
     margin: 5px 0px 0px 5px;
@@ -40,13 +43,15 @@ h1{
     padding: 5%;
     height: 100%;
 }
+.stateOfTheArt{
+    background-color: blue;
 
+}
 section h2{
     text-align: right;
+    margin: 0%;
 }
-section p{
-    padding: 1%;
-}
+
 hr {
     height: 1px;
     background-color: black;
