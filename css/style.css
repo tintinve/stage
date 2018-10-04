@@ -44,7 +44,7 @@ h1{
     height: 100%;
 }
 .stateOfTheArt{
-    background-color: #122E3E;
+    background-color: #274263;
     position: relative;
 
 }
@@ -62,10 +62,10 @@ section h2{
     top: 0px;
     right: 0px;
     text-align: right;
-    color: #96999D;
-    font-size: 0.8em;
+    color: #D6DBE4;
+    font-size: 0.75em;
 }
-#rubik{
+.rubik{
     width: 150px;
     margin: 10px 0px 0px 5px;
 }
