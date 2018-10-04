@@ -80,29 +80,66 @@ section h2{
     position: relative;
 }
 .rubik{
-    width: 105px;
+    width: 110px;
     position: absolute;
-    top: 32px;
-    right: 50px;
+    top: 34px;
+    right: 25px;
 }
 .stack h2{
     position: absolute;
     top:1px;
-    left: 20px;
+    left: 25px;
     color: #C3C3C3;
 }
 .stackText{
     margin: 0px 0px 0px 0px;
     position: absolute;
     top: 45px;
-    left: 20px;
+    left: 25px;
     color:  #182028;
     font-size: 0.75em;
     color: #C3C3C3;
 }
-hr {
-    height: 1px;
-    background-color: black;
+
+.aPost:nth-child(odd) {
+background-color: red;
+}
+.aPost:nth-child(even) {
+    background-color: #121E2D;}
+
+.aPost{
+    background-color: #9999ff;
+    height: 100%;
+    padding: 10px 20px 5px 0px;
+    margin: -1px 0px 0px 0px;
+}
+.aPostTitle{
+    margin: 0px 0px 0px 0px;
+    padding: 10px 20px 0px 0px;
+    font-size: 1.1em;
+}
+.aPostText{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 25px;
+    font-size: 0.7em;
+    width: 100%;
+}
+.readMore{
+    margin: 0px 0px 0px 25px;
+    width: 90%;
+    height: 20px;
+    font-size: 0.8em;
+}
+.readMore:link{
+    text-decoration: none;
+    color: #121E2D;
+}.readMore:visited{
+    color: #121E2D;
+}
+.link-more{display: none}
+.aPost:nth-child(1) {
+    background: linear-gradient(to top right, #2274a5 48%, #e71d36 157%);
+    color: #C3C3C3;
 }
 .top_line{
     display: none;

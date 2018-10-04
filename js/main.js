@@ -33,7 +33,6 @@ tl1.staggerFrom(
   },
   0.1
 );
-//TweenMax.from("#lineas_bola", 2, { x: 500 });
 //------------------------>>> End Animation Bola
 function fetchData() {
   lookingForData = true;
@@ -50,8 +49,10 @@ function showContent(data) {
 }
 function showPost(aPost) {
   let clone = template.cloneNode(true);
-  clone.querySelector("h1").textContent = aPost.title.rendered;
-  clone.querySelector(".readMore").textContent = aPost.id;
+  clone.querySelector(".aPostTitle").textContent = aPost.title.rendered;
+  clone.querySelector(".aPostText").maxLength = 10;
+  clone.querySelector(".aPostText").innerHTML = aPost.excerpt.rendered;
+  //clone.querySelector(".readMore").textContent = aPost.id;
   clone.querySelector(".readMore").href = "subpage.html?id=" + aPost.id;
   blog.appendChild(clone);
 }
