@@ -62,3 +62,37 @@ aside {
   color: white;
   text-decoration: none;
 }
+.wideMenu {
+  display: none;
+}
+@media all and (min-width: 600px) {
+  .burger {
+    display: none;
+  }
+  aside {
+    display: none;
+  }
+  .wideMenu {
+    display: block;
+    float: right;
+    margin: 28px 20px 0px 0px;
+    font-size: 0.9em;
+  }
+  .wideMenu_item {
+    margin: 0px 0px 0px 9px;
+  }
+  .wideMenu_item:link {
+    text-decoration: none;
+    color: #182028;
+  }
+  .wideMenu_item:visited {
+    color: #182028;
+  }
+}
+@media all and (min-width: 1024px) {
+  .wideMenu {
+    position: absolute;
+    right: 3%;
+    top: 7px;
+  }
+}
