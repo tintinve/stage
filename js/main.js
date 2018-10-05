@@ -39,7 +39,6 @@ function fetchData() {
     .then(e => e.json())
     .then(showContent);
 }
-
 function showContent(data) {
   console.log(data);
   data.forEach(showPost);
@@ -53,13 +52,10 @@ function showPost(aPost) {
   clone.querySelector(".readMore").href = "subpage.html?id=" + aPost.id;
   blog.appendChild(clone);
 }
-
 fetchData();
-
 function burger(x) {
   x.classList.toggle("change");
 }
-
 document.querySelector(".burger").addEventListener("click", trae_menu);
 
 function trae_menu() {
