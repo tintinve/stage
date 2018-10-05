@@ -237,6 +237,9 @@ footer img {
 .project {
   height: 470px;
 }
+.project1 {
+  height: 290px;
+}
 .projectFoto {
   width: 260px;
   padding: 15px 0px 0px 0px;
@@ -251,6 +254,14 @@ footer img {
 .techLogo {
   width: 80px;
   margin: 0px 0px 0px 29px;
+}
+.wordPress {
+  width: 250px;
+  margin: 0px 0px 0px 59px;
+}
+.project a {
+  display: block;
+  margin: 10px 0px 10px 0px;
 }
 @media all and (min-width: 600px) {
   body {
@@ -327,6 +338,45 @@ footer img {
     grid-column: 1 / 3;
     grid-row: 3/4;
     width: 100%;
+  }
+  .theTeamMain {
+    height: 100%;
+    background: transparent;
+  }
+  .theTeamContainer {
+    font-size: 1em;
+  }
+  .theTeamContainer img {
+    padding: 10px;
+    width: 140px;
+    border-radius: 20%;
+    filter: grayscale(0.5);
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  #name {
+    position: relative;
+  }
+  .project {
+    height: 470px;
+  }
+  .project1 {
+    height: 290px;
+  }
+  .projectFoto {
+    width: 260px;
+    padding: 15px 0px 0px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .techLogo {
+    margin: 0px 0px 0px 82px;
+  }
+  .wordPress {
+    width: 250px;
+    margin: 0px 0px 0px 172px;
   }
   footer {
     grid-column: 1 / 3;
@@ -426,6 +476,18 @@ footer img {
     width: 120px;
     top: 15px;
     right: 288px;
+  }
+  #name {
+    display: absolute;
+    top: 0px;
+    left: 410px;
+  }
+  .techLogo {
+    margin: 0px 0px 0px 192px;
+  }
+  .wordPress {
+    width: 250px;
+    margin: 0px 0px 0px 382px;
   }
   #blog {
     grid-row: 3/4;
