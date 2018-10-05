@@ -263,6 +263,12 @@ footer img {
   display: block;
   margin: 10px 0px 10px 0px;
 }
+#eventlist {
+  background-color: gray;
+}
+#titleSubpage {
+  display: block;
+}
 @media all and (min-width: 600px) {
   body {
     width: 600px;
@@ -383,6 +389,9 @@ footer img {
     grid-row: 4/5;
     width: 100%;
   }
+  #titleSubpage {
+    display: none;
+  }
 }
 @media all and (min-width: 1024px) {
   body {
@@ -419,7 +428,6 @@ footer img {
     background-color: #121e2d;
   }
   #stateH2 {
-    margin: 3px 75px 0px 0px;
     text-align: right;
     width: 400px;
     float: right;
