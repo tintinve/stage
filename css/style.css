@@ -483,11 +483,44 @@ footer img {
     margin-right: auto;
     display: block;
   }
-  .teamDiv1 {
-    height: 800px;
+  #teamMemberName {
+    top: 259px;
   }
-  #name {
-    position: relative;
+  #teamMemberTittle {
+    margin: 34px 0px 0px 0px;
+  }
+  .teamTitle {
+    font-size: 1.3em;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    top: 130px;
+    left: 340px;
+    width: 240px;
+    opacity: 0.85;
+  }
+  .teamText1 {
+    font-size: 1.3em;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    top: 245px;
+    left: 340px;
+    width: 240px;
+    opacity: 0.85;
+  }
+  .teamText2 {
+    font-size: 0.9em;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    top: 310px;
+    left: 340px;
+    width: 240px;
+    opacity: 0.85;
+  }
+  .teamDiv1 {
+    height: 670px;
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   .project {
     height: 470px;
