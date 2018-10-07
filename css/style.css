@@ -643,20 +643,49 @@ footer img {
     top: 15px;
     right: 288px;
   }
-  .teamDiv1 {
-    height: 1000px;
-  }
-  #name {
-    display: absolute;
-    top: 0px;
-    left: 410px;
-  }
-  .techLogo {
-    margin: 0px 0px 0px 192px;
-  }
-  .wordPress {
+  #teamMemberName {
+    top: 260px;
+    left: 5px;
     width: 250px;
-    margin: 0px 0px 0px 382px;
+  }
+  #teamMemberTittle {
+    margin: 40px 0px 0px 0px;
+  }
+  .teamDiv1 {
+    height: 700px;
+  }
+  .teamTitle {
+    font-size: 1.7em;
+    margin: 0px 0px 0px 0px;
+    padding: 10px;
+    top: 105px;
+    left: 380px;
+    width: 600px;
+    opacity: 0.85;
+  }
+  .teamText1 {
+    font-size: 1.4em;
+    margin: 0px 0px 0px 0px;
+    padding: 10px;
+    top: 233px;
+    left: 380px;
+    width: 600px;
+    opacity: 0.85;
+  }
+  .teamText2 {
+    font-size: 1em;
+    margin: 0px 0px 0px 0px;
+    padding: 10px;
+    top: 293px;
+    left: 380px;
+    width: 600px;
+    opacity: 0.85;
+  }
+  .designSoftware {
+    font-size: 1em;
+    width: 420px;
+    margin-top: 2px;
+    padding: 5px;
   }
   #blog {
     grid-row: 3/4;
