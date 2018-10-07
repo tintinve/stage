@@ -1,5 +1,5 @@
 document.querySelector(".burger").addEventListener("click", trae_menu);
-
+const aside = document.querySelector("aside");
 function burger(x) {
   x.classList.toggle("change");
 }

@@ -40,7 +40,7 @@ main {
 }
 main h1 {
   text-align: right;
-  margin: 5% 5px 1% 5px;
+  margin: 0% 5px 1% 5px;
   padding: 5% 5% 1% 5%;
   color: #182028;
 }
@@ -260,16 +260,64 @@ footer img {
   border-radius: 50%;
   padding: 10px;
   box-shadow: 10px 5px 20px #177ba0;
+  margin-bottom: 15px;
 }
-
+#teamMemberName {
+  text-align: center;
+  font-size: 1.2em;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+#teamMemberTittle {
+  text-align: center;
+  font-size: 0.9em;
+  margin: 4px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
 .teamDiv1 {
   height: 500px;
+  position: relative;
   background-image: url(/assets/img/Kampus_KEA_BA.jpg);
   background-position: right top;
   background-size: cover;
   background-repeat: no-repeat;
 }
-
+.teamTitle {
+  background-color: white;
+  text-align: right;
+  font-size: 1em;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  position: absolute;
+  top: 230px;
+  left: 180px;
+  width: 190px;
+  opacity: 0.85;
+}
+.teamText1 {
+  background-color: white;
+  text-align: right;
+  font-size: 1em;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  position: absolute;
+  top: 320px;
+  left: 180px;
+  width: 190px;
+  opacity: 0.85;
+}
+.teamText2 {
+  background-color: white;
+  text-align: right;
+  font-size: 0.8em;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  position: absolute;
+  top: 372px;
+  left: 180px;
+  width: 190px;
+  opacity: 0.85;
+}
 .teamDiv2 {
   height: 200px;
   background: linear-gradient(to bottom, #646057 4%, #ffffff 36%);
