@@ -213,6 +213,15 @@ footer img {
   text-decoration: none;
   color: #182028;
 }
+/* /////////////////////////// The Team starts ////  */
+.theTeamNav {
+  position: relative;
+  background-color: #86a5d9;
+}
+.theTeamLogo {
+  width: 180px;
+  margin: 5px 0px 0px 5px;
+}
 .theTeamMain {
   height: 100%;
   background: transparent;
@@ -220,28 +229,63 @@ footer img {
 .theTeamContainer {
   font-size: 1em;
 }
-.theTeamContainer img {
-  padding: 10px;
-  width: 140px;
-  border-radius: 20%;
-  filter: grayscale(0.5);
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-}
 .theTeamContainer h1 {
   text-align: center;
   font-size: 1.6em;
   margin: 0px;
 }
+.perspectMainContainer {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background: linear-gradient(to bottom, #86a5d9, #fff);
+}
+#perspectContainer {
+  perspective: 40px;
+}
+
+#inner {
+  width: 250px;
+  height: 250px;
+  background-color: white;
+  transition: transform 0.5s;
+  background-image: url(/assets/img/portrait1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: grayscale(22%);
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 10px 5px 20px #177ba0;
+}
+
+.teamDiv1 {
+  height: 500px;
+  background-image: url(/assets/img/Kampus_KEA_BA.jpg);
+  background-position: right top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.teamDiv2 {
+  height: 200px;
+  background: linear-gradient(to bottom, #646057 4%, #ffffff 36%);
+}
 .project {
-  height: 470px;
+  height: 370px;
+  color: #177ba0;
 }
 .project1 {
   height: 290px;
 }
+#reponsiveImg {
+  width: 100px;
+}
 .projectFoto {
-  width: 260px;
+  width: 160px;
   padding: 15px 0px 0px 0px;
   margin-left: auto;
   margin-right: auto;
@@ -360,6 +404,9 @@ footer img {
     margin-left: auto;
     margin-right: auto;
     display: block;
+  }
+  .teamDiv1 {
+    height: 800px;
   }
   #name {
     position: relative;
@@ -484,6 +531,9 @@ footer img {
     width: 120px;
     top: 15px;
     right: 288px;
+  }
+  .teamDiv1 {
+    height: 1000px;
   }
   #name {
     display: absolute;
